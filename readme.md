@@ -1,3 +1,14 @@
+## 本仓库说明
+
+本仓库备份了 [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) 的两个完整版本（原仓库代码已被作者清空）。
+
+| 分支 | 来源 | 说明 |
+|------|------|------|
+| **`v4-new-arch`**（默认） | [evergardener/WeChatMsg](https://github.com/evergardener/WeChatMsg) | 2025年重写版，支持微信 4.0+，无 GUI，纯脚本/命令行，导出格式最全（HTML/Word/Excel/CSV/JSON/Markdown/AI-TXT），含 CI 自动构建 EXE |
+| **`v3-legacy-gui`** | [soucod/WeChatMsg](https://github.com/soucod/WeChatMsg) | 2023-2024 原版，有 PyQt5 完整 GUI，支持微信 v3，627 次完整提交历史，含 MemoAI（Qwen2微调） |
+
+---
+
 ## 现已支持微信4.0，[点击查看详细设计文档](https://blog.lc044.love/post/13)
 
 <h1 align="center">我的数据我做主</h1>
