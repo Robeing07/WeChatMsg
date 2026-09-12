@@ -1,10 +1,9 @@
 name: Build EXE with PyInstaller and Cache
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ "v4-new-arch" ]
 
 env:
   MAIN_SCRIPT: example/3-exporter.py
